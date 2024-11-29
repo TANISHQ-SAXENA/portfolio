@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+body{
+    background-color: rgb(2, 2, 35);
+    color: white;
+    font-family: 'poppins',sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(23, 23, 89);
+    position: fixed;
+    margin-top: 0px;
+    display: flex;
+}
+.header{
+    font-size: 2rem;
+    margin: 21px 100px;
+    color: rgb(238, 83, 27);
+    text-shadow: 0px 0px 4px solid rgb(227, 73, 17);
+    animation: left 2s .5s;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(23, 23, 89);
+    position :fixed;
+    width: 60%;
+    margin-top: 27px;
+    list-style: none;
+    font-size: 1.3rem;
+    animation: right .5s 1s;
+    right: 0%;
+}
+.nav>a{
+    color: white;
+    text-decoration: none;
+} 
+.active{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 25px 30px;
+}
+/* .right ul{
+    position: relative;
+    font-size: 1.3rem;
+    animation: right .5s .2s;
+    
+} */
+.right>ul>li>a{
+    color: white;
+    text-decoration: none;
+}
+.nav>a:hover{
+    font-size: 1.35rem;
+    color:rgb(238, 83, 27);
+    text-shadow: rgb(238, 83, 27);;
+}
+.profile{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.pic>img{
+    margin: 150px 80px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 2px solid rgb(226, 43, 43);
+    box-shadow: 0 0 4px rgb(205, 37, 37);
+    animation: image 2s 1.5s;
+    transform: rotateX('180deg');
+}
+.abt{
+    font-size: 2.5rem;
+    margin: 80px 100px;
+    padding-left: 50px;
+    color: rgb(225, 93, 22);
+}
+.namec{
+    color: rgb(146, 67, 220);
+}
+.x{
+    font-size: 2rem;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+    border-radius: 50%;
+    background-color: rgb(188, 141, 141);
+    margin-top: 10px;
+    border: 2px solid rgb(121, 2, 26);
+    padding-left: 33%;
+}
+
+.icon1>a{
+    animation: icon 3s 2s;
+    border-radius: 50%;
+    color: rgb(9, 85, 41);
+    font-size: 40px;
+}
+.icon1>a:hover{
+    color: #0ef;
+    opacity: 100%;
+    transition: .5s ease;
+}
+#element{
+    color: rgb(146, 67, 220);
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    /* gap: 100px; */
+}
+#info1>img{
+    border: 4px solid rgb(160, 29, 193);
+    width: 500px;
+    height: 500px;
+    margin-left: 50px;
+    border-radius: 15%;
+}
+#info2{
+    width: 600px;
+    height: 500px;
+    margin-top: 0px;
+    color: rgb(230, 90, 207);
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.services{
+    margin: 80px 150px;
+    font-size: 2.5rem;
+    color:  #0ef;
+}
+.services-list div:hover{
+    transform: translateY(-10px);
+}
+.services-list{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.SwDvmt{
+    color: rgb(239, 19, 16);
+    border: 2px solid rgb(239, 19, 16);
+    font-size: 1.5rem;
+    border-radius: 10%;
+    text-align: center;
+    width: 500px;
+    height: 300px;
+    list-style: none;
+}
+.s{
+    color: rgb(83, 197, 201);
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1rem;
+}
+.SAD{
+    color: rgb(239, 19, 16);
+    border: 2px solid rgb(239, 19, 16);
+    font-size: 1.5rem;
+    border-radius: 10%;
+    text-align: center;
+    width: 500px;
+    height: 300px;
+    list-style: none;
+}
+.sad{
+    color: rgb(94, 111, 194);
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1rem;
+}
+.UI-UX{
+    color: rgb(239, 19, 16);
+    border: 2px solid rgb(239, 19, 16);
+    font-size: 1.5rem;
+    border-radius: 10%;
+    text-align: center;
+    width: 500px;
+    height: 300px;
+}
+.UI_UX{
+    color: rgb(108, 203, 108);
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1rem;
+}
+.prjmgmt{
+    text-align: center;
+    color: rgb(239, 19, 16);
+    border: 2px solid rgb(239, 19, 16);
+    font-size: 1.5rem;
+    border-radius: 10%;
+    text-align: center;
+    width: 500px;
+    height: 300px;
+    list-style: none;
+}
+.p{
+    color: rgb(225, 99, 208);
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+#explaination{
+    margin-left: 10px;
+}
+.prj{
+    margin: 80px 100px;
+    font-size: 2.6rem;
+    padding-left: 50px;
+    color: #0ef;
+}
+.projects{
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.projects>.prj1{
+    text-align: center;
+    color: rgb(239, 19, 16);
+    margin-top: 20px;
+    width: 350px;
+    height: 300px;
+    border: 2px solid rgb(185, 31, 31);
+    border-radius: 10%;
+    font-size: 1.5rem;
+    box-shadow: 0px 0px 2px solid rgb(19, 2, 75) ;
+
+}
+#pj1{
+    margin-top: 10px;
+    color: rgb(134, 70, 193);
+    font-size: 1rem;
+}
+#pj1>#link1>a{
+    color: rgb(231, 33, 33);
+}
+#pj2{
+    margin-top: 10px;
+    color: rgb(134, 70, 193);
+    font-size: 1rem;
+}
+#pj2>#link2>a{
+    color: rgb(231, 33, 33);
+}
+#pj3{
+    margin-top: 10px;
+    color: rgb(134, 70, 193);
+    font-size: 1rem;
+}
+#pj3>a{
+    color: rgb(231, 33, 33);
+}
+#pj4{
+    margin-top: 10px;
+    color: rgb(134, 70, 193);
+    font-size: 1rem;
+}
+#pj4>a{
+    color: rgb(231, 33, 33);
+}
+.contact{
+    margin: 80px 100px;
+    font-size: 2.6rem;
+    padding-left: 50px;
+    color: #0ef;
+}
+.cntct{
+    margin-left: 100px;
+    font-size: 1.5rem;
+}
+.mycontact{
+    font-size: 1rem;
+    margin: 100px;
+}
+@keyframes left {
+    0%{
+        top: 100px;
+        opacity: 0;
+
+    }
+   
+    100%{
+        top: 21px;
+        opacity: 1;
+    }
+}
+@keyframes right {
+    0%{
+        top: 100px;
+        opacity: 0;
+
+    }
+    
+    50%{
+        top: 50px;
+        opacity: 0.2;
+
+    }
+    
+    100%{
+        top: 21px;
+        opacity: 1;
+    }
+}
+@keyframes image {
+    from{
+        right: -500px;
+        opacity: 0;
+
+    }
+    to{
+        top: 150px;
+        right: 80px;
+        opacity: 100%;
+    }
+}
+@keyframes home {
+    from{
+        top: 100px;
+        opacity: 0;
+
+    }
+    to{
+        
+        opacity: 100%;
+    }
+}
+@keyframes icon {
+    from{
+        top: 50px;
+        opacity: 0;
+
+    }
+    to{
+        top:auto;
+        opacity: 100%;
+    }
+}
